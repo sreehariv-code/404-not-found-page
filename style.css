@@ -20,11 +20,14 @@ header h3 {
   padding-top: 25px;
   padding-left: 27px;
   letter-spacing: -1px;
+  font-size: 2rem;
 }
 
 main {
   font-family: var(--main-font);
-  min-height: 70vh;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
 }
 
 .flex {
@@ -36,6 +39,9 @@ main {
   max-width: 80%;
   margin-inline: auto;
   gap: 5rem;
+  justify-content: center;
+  align-items: center;
+  min-height: 100dvh;
 }
 .image {
   max-width: 47%;
@@ -56,7 +62,7 @@ main {
 
 .content p {
   color: #4f4f4f;
-  font-size: 1.125rem;
+  font-size: 1.5rem;
   width: 75%;
   margin-top: 2rem;
 }
@@ -70,4 +76,34 @@ main {
   font-family: var(--main-font);
   align-self: flex-start;
   padding: 1.4rem 2.67rem;
+}
+
+footer {
+  padding-top: 3rem;
+  font-family: var(--main-font);
+  text-align: center;
+}
+
+/*Media Queries*/
+
+@media screen and (max-width: 756px) {
+  .wrapper {
+    max-width: 100%;
+    padding: 0 2rem;
+  }
+  .md-flex-col {
+    flex-direction: column;
+  }
+  .image {
+    max-width: 100%;
+  }
+
+  .content h1 {
+    font-size: 3.1rem;
+  }
+
+  .content p {
+    font-size: 1.25rem;
+    width: 100%;
+  }
 }
