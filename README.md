@@ -36,10 +36,11 @@
 ## Overview
 
 - Desktop View
-
-![screenshot](./screenshots/desktop.png)
+  <br>
+  ![screenshot](./screenshots/desktop.png)
 
 - Mobile View
+  <br>
   ![screenshot](./screenshots/mobile.png)
 
 This is a beginner level challenge to experiment around for responsive developers or who are aspiring to add responsive design in there skillsets.
